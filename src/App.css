@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dc7000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+/* App.css */
+.table-container {
+  margin: auto;
+}
+
+th, td {
+  padding:5px;
+  text-align: center;
+}
+
+.desc {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
